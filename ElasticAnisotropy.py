@@ -52,7 +52,7 @@ class ElasticAnisotropy(object):
                         cijkl[i,j,k,l] = getCijkl(i, j,k,l)
         return cijkl
 
-    def getVoigMatrix(self,cijkl):
+    def getVoigtMatrix(self,cijkl):
         C = np.zeros((6,6))
         def getCij(i,j):
             def gettensorindex(i):
