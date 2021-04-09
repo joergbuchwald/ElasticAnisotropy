@@ -25,9 +25,9 @@ class ElasticAnisotropy(object):
         e3 = np.array([n[0], n[1], n[2]])
         e1 = np.array([n[2]/(n[0]*np.sqrt(1+(n[2]/n[0])**2)), 0, -1.0/np.sqrt(1+(n[2]/n[0])**2)])
         e2 = np.cross(e3,e1)
-        R = np.array([[e1[0], e1[1], e1[2]],
-            [e2[0], e2[1], e2[2]],
-            [e3[0], e3[1], e3[2]]])
+        R = np.array([[e1[0], e2[0], e3[0]],
+            [e1[1], e2[1], e3[1]],
+            [e1[2], e2[2], e3[2]]])
         return R
 
     def getTensor(self):
