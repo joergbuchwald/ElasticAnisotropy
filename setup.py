@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ElasticAnisotropy",
-    version=0.001,
+    version=0.1,
     maintainer="Jörg Buchwald",
     maintainer_email="joerg_buchwald@ufz.de",
     author="Jörg Buchwald",
