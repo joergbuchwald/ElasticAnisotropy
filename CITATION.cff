@@ -8,3 +8,5 @@ title: "ElasticAnisotropy"
 version: 0.1
 doi: 10.5281/zenodo.5791436
 date-released: 2021-12-19
+license: MIT License
+repository-code: "https://github.com/joergbuchwald/ElasticAnisotropy"
